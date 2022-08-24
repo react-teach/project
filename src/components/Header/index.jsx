@@ -1,8 +1,13 @@
 import React from 'react'
+import AppButton from '../Buttons/AppButton'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div>
+      <h1>
+      Header component</h1>
+      <AppButton/>
+      </div>
   )
 }
 
