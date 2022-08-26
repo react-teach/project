@@ -1,13 +1,13 @@
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Homepage from "./components/Homepage/Homepage";
+import Header from "./components/header/Header";
+import Showcase from "./components/showcase/Showcase";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div>
       <Header/>
-      <Homepage/>
+      <Showcase/>
       <Footer/>
     </div>
   );

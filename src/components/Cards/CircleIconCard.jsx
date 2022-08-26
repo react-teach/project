@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PhotoCameraFrontIcon from "@mui/icons-material/PhotoCameraFront";
-import { Grid, Paper, Typography, withStyles } from "@mui/material";
+import { Typography } from "@mui/material";
 
 function CircleIconCard() {
   return (
@@ -30,11 +30,9 @@ flex-directive:column;
 justify-content:center;
 align-items:center;
 padding:50px;
-background-color:#ffffff;
 box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
 border-radius:2%;
 transition:.4s;
-color:#111111;
 }
 .icon{
   display:flex;
@@ -43,7 +41,7 @@ color:#111111;
   width:75px;
   height:75px;
   margin:0 auto;
-color:#FFFFFF;
+  color:#FFFFFF;
   background-color:#2AA275;
   border-radius:50%;
 }
@@ -53,7 +51,7 @@ color:#FFFFFF;
 }
 :hover{
   background-color:#2AA275;
-  margin-top:-10px;
+  transform: translateY(-5px);
   color:white;
   .icon{
     background-color:white;
@@ -61,18 +59,5 @@ color:#FFFFFF;
   .faIcon{
     color:#2AA275;
   }
-}
-h1{
-  color: red;
-  font-size:24px;
-
-  :hover{
-    color:blue;
-  }
-}
-a{
-  color: pink;
-font-size:24px;
-};
-`;
+}`;
 export default CircleIconCard;
