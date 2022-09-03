@@ -21,6 +21,16 @@ export const AppbarHeader = styled(Typography)(() => ({
 
 }));
 
+export const HeaderImage = styled("img")(({ src, theme }) => ({
+  src: `url(${src})`,
+}));
+
+
+
+
+
+
+
 
 
 

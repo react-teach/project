@@ -18,7 +18,6 @@ export default function Banner() {
       <BannerImage src="/images/single-welcome.png" />
       <BannerContent>
         <BannerTitle variant="h2">Çözemediğin soru kalmasın</BannerTitle>
-
         <BannerDescription variant="subtitle">
           İster LGS’ye ister YKS’ye hazırlan; çözemediğin soruların fotoğrafını
           gönder, Türkiye’nin en iyi üniversitelerinde okuyan öğretmenlerimiz

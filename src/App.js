@@ -1,3 +1,4 @@
+
 import Header from "./components/Header";
 
 import { useEffect } from "react";
@@ -9,15 +10,13 @@ function App() {
     document.title = "React Material UI - Home";
   }, []);
   return (
-    <Container
-      maxWidth="xl"
-      sx={{
-        background: "#fff",
-      }}
-    >
+    <>
+
       <Header />
-      <Banner />
-    </Container>
+      <Banner/>
+
+
+      </>
   );
 }
 
